@@ -10,21 +10,39 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">
+            Whiskey Drop
+        </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+            <li class="nav-item d-block d-md-none"><a href="/login" class="nav-link">Sign in / Sign up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
+            <a href="/login">Sign in / Sign up</a>
+        </div>
+    </nav>
     <article class="container">
-        <section class="callout">
+        <section class="callout jumbotron mt-3">
             <div class="row">
                 <div class="col-12">
                     <h1>
                         The finest whiskeys delivered to your door.
                     </h1>
                     <p class="lead">
-                        Sign up today to start recieving the worlds best whiskeys every month. <s>£19.99</s>
-                        <strong><mark>First
-                                one is free!</mark></strong>
+                        Sign up today to start recieving the worlds best whiskeys every month.
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        
+                        <span class="d-inline d-sm-none"><br></span>
+
+                        <strong><mark>First one is free!</mark></strong>
                     </p>
-                    <p class="text-muted">
-                        <small>You must be over 18 to sign-up. Please drink responsibly.</small>
-                    </p>
+                        <p class="text-muted">
+                            <small>You must be over 18 to sign-up. Please drink responsibly.</small>
+                        </p>
+                    
                     <button class="btn btn-success btn-lg">Sign up!</button>
                 </div>
             </div>
